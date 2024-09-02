@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #333;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px 0;
 }
 
@@ -31,18 +31,19 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 .hero {
     background: url('path/to/hero-image.jpg') no-repeat center center/cover;
     height: 100vh;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: 470px;
 }
 
 .hero .btn {
@@ -51,6 +52,9 @@ nav ul li a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 section {
